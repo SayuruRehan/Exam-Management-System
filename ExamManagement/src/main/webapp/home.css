@@ -24,6 +24,13 @@
 #lgo {
   color: white;
 }
+
+.logo {
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
 header {
   font-family: var(--Sigvar);
 }
@@ -43,7 +50,7 @@ nav {
   top: 0%;
   left: 0%;
   background-color: #003566;
-  padding: 10px;
+  padding: 0 20px 0 10px;
   line-height: 50px;
 }
 .upnav {
@@ -91,6 +98,8 @@ ul {
 
 .searchLogin {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #searchbox {
   width: 240px;
@@ -116,6 +125,12 @@ ul {
   color: white;
 }
 
+.bi {
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
 #sbtn {
   color: white;
   font-size: 18px;
@@ -126,4 +141,6 @@ ul {
 }
 .lgn {
   padding: 10px;
+  justify-content: center;
+  align-items: center;
 }
