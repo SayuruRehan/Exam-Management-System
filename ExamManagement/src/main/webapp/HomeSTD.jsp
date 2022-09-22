@@ -7,7 +7,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
     <meta charset="ISO-8859-1" />
     <link href="home.css" rel="stylesheet" type="text/css" />
 
-    <title>Insert title here</title>
+    <title>Student</title>
   </head>
 
   <body onload="startTime()">

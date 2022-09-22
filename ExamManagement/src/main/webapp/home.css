@@ -1,13 +1,13 @@
 @font-face {
   font-family: "proxima_novaregular";
-  src: url("../fonts/proxima_nova_font-webfont.woff") format("woff");
+  src: url("fonts/proxima_nova_font-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "sigvarregular";
-  src: url("../fonts/sigvarregular-webfont.woff") format("woff");
+  src: url("fonts/sigvarregular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
