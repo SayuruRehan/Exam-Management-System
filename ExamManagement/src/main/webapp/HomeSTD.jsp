@@ -25,7 +25,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
           <div class="search-container">
             <input type="search" placeholder="Search" id="searchbox" />
           </div>
-          <div class="bi">
+          <div class="bi bi-bell">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="45"
@@ -100,7 +100,10 @@ uri="http://java.sun.com/jsp/jstl/core"%>
       </nav>
     </header>
 
+	<br><br>
+	<center>
     <h1>Student</h1>
+    </center>
 
     <c:forEach var="std" items="${stdDetails}">
       <!--The name given in set attribute in servlet file -->

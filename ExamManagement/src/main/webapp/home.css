@@ -57,6 +57,7 @@
     display: flex;
     padding: 10px;
     justify-content: space-between;
+    align-items: center;
     background-color: #005aad;
   }
   
@@ -100,6 +101,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 30px;
   }
   #searchbox {
     width: 240px;
