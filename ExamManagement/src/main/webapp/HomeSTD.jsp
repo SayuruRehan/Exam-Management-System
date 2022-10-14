@@ -104,7 +104,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
 	<center>
     <h1>Student</h1>
     </center>
-
+	
     <c:forEach var="std" items="${stdDetails}">
       <!--The name given in set attribute in servlet file -->
 
