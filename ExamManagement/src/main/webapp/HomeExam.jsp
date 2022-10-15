@@ -62,6 +62,11 @@ uri="http://java.sun.com/jsp/jstl/core"%>
             <li><a href="Contact Us.html">Inquiries</a></li>
           </ul>
         </div>
+	<div  style="color:white; float:right; margin-left:400px ; font-family: Arial, sans-serif;" >
+        	<c:forEach var="exm" items="${ExamDetails}"> 
+        		<b>${exm.name}</b>
+        	</c:forEach>
+        </div>
         <div
           id="time"
           class="hbl"
@@ -100,26 +105,15 @@ uri="http://java.sun.com/jsp/jstl/core"%>
       </nav>
     </header>
 
-	<br><br>
-	<center>
-    <h1>HomeExam</h1>
-    </center>
-	
-    <c:forEach var="std" items="${stdDetails}">
-      <!--The name given in set attribute in servlet file -->
+	<div class="op-background">
+    		<h1>Welcome to WebExam !</h1>
+		<div class="op-btn">
 
-      ${std.id}
-      <!-- It calls the getters -->
-      ${std.name} ${std.NIC} ${std.phone} ${std.email} ${std.username}
-      ${std.password}
-    </c:forEach>
-    
-	<div class="op-btn">
-
-        <div class="design-btn"><a href="timetableStd.jsp" ><button id="timetable-btn" >Time Table<br><br><ion-icon name="calendar-outline" class="timetable"></ion-icon></button></a></div>
-        <div  class="design-btn"><a href="seatStd.jsp" ><button id="seat-btn">Seat Arrangements<br><br><ion-icon name="reader-outline" class="seat"></ion-icon></button></a></div>
-        <div  class="design-btn"><a href="resultStd.jsp" ><button id="results-btn">Results<br><br><ion-icon name="trophy-outline" class="result"></ion-icon></button></a></div>
-    </div>
+        		<div class="design-btn"><a href="timetableStd.jsp" ><button id="timetable-btn" >Time Table<br><br><ion-icon name="calendar-outline" class="timetable"></ion-icon></button></a></div>
+        		<div  class="design-btn"><a href="seatStd.jsp" ><button id="seat-btn">Seat Arrangements<br><br><ion-icon name="reader-outline" class="seat"></ion-icon></button></a></div>
+        		<div  class="design-btn"><a href="resultStd.jsp" ><button id="results-btn">Results<br><br><ion-icon name="trophy-outline" class="result"></ion-icon></button></a></div>
+    		</div>
+	</div>
     
   </body>
 </html>
