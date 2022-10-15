@@ -9,7 +9,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Exam | STD</title>
+    <title>Exam | Student</title>
   </head>
 
   <body onload="startTime()">
@@ -100,25 +100,12 @@ uri="http://java.sun.com/jsp/jstl/core"%>
       </nav>
     </header>
 
-	<br><br>
-	<center>
-    <h1>ExamSTD</h1>
-    </center>
-	
-    <c:forEach var="std" items="${stdDetails}">
-      <!--The name given in set attribute in servlet file -->
-
-      ${std.id}
-      <!-- It calls the getters -->
-      ${std.name} ${std.NIC} ${std.phone} ${std.email} ${std.username}
-      ${std.password}
-    </c:forEach>
-    
+   <div class="op-background">
 	<div class="op-btn">
 
-        <div class="design-btn"><a href="register.jsp" ><button id="register-btn" >Register for Exam<br><br><ion-icon name="book-outline" class="timetable"></ion-icon></button></a></div>
-        <div  class="design-btn"><a href="seatStd.jsp" ><button id="seat-btn">Take Exams<br><br><ion-icon name="reader-outline" class="seat"></ion-icon></button></a></div>
-        
+        	<div class="design-btn"><a href="register.jsp" ><button id="register-btn" >Register for Exam<br><br><ion-icon name="book-outline" class="timetable"></ion-icon></button></a></div>
+        	<div  class="design-btn"><a href="seatStd.jsp" ><button id="seat-btn">Take Exams<br><br><ion-icon name="reader-outline" class="seat"></ion-icon></button></a></div>
+        </div> 
     </div>
     
   </body>
