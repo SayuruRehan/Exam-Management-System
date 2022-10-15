@@ -177,7 +177,18 @@
     width:3000px;
   }
   
-  
+  	.op-background{
+					
+		background-image: url('imgs/study.jpg');
+		background-repeat: no-repeat;
+ 		padding-top: 2.5rem;
+ 		background-size: cover contain;
+		background-position: center;
+		height: 470px;
+		text-align: center;
+		font-size: 26px;
+		color: #191970;
+	}
   .op-btn button {
     width: 100%;
     background-color: var(--theme-blue);
