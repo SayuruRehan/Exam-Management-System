@@ -9,7 +9,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Student</title>
+    <title>Home | Student</title>
   </head>
 
   <body onload="startTime()">
@@ -73,7 +73,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
           style="
             background-color: #7995ca;
             float: right;
-            padding: 0 10px 0 10px;
+            padding: 0 20px 0 20px;
           "
         >
           <a
@@ -106,18 +106,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
     </header>
 
 	<br><br>
-	<center>
-    <h1>Student</h1>
-    </center>
-	
-    <c:forEach var="std" items="${stdDetails}">
-      <!--The name given in set attribute in servlet file -->
 
-      ${std.id}
-      <!-- It calls the getters -->
-      ${std.name} ${std.NIC} ${std.phone} ${std.email} ${std.username}
-      ${std.password}
-    </c:forEach>
     
 	<div class="op-btn">
 
