@@ -82,7 +82,7 @@ public class LoginServlet extends HttpServlet {
 			}
 			
 			//Redirect the data to the new page
-			RequestDispatcher dis = request.getRequestDispatcher("HomeEX.jsp"); //Name of the file that data should be redirected to
+			RequestDispatcher dis = request.getRequestDispatcher("HomeExam.jsp"); //Name of the file that data should be redirected to
 			dis.forward(request, response);
 			
 		}
