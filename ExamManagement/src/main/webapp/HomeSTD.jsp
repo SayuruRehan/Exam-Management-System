@@ -62,6 +62,11 @@ uri="http://java.sun.com/jsp/jstl/core"%>
             <li><a href="Contact Us.html">Inquiries</a></li>
           </ul>
         </div>
+	<div  style="color:white; float:right; margin-left:400px ; font-family: Arial, sans-serif;" >
+        	<c:forEach var="std" items="${stdDetails}"> 
+        		<b>${std.name}</b>
+        	</c:forEach>
+        </div>
         <div
           id="time"
           class="hbl"
