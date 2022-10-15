@@ -50,7 +50,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
         <div class="heading">LOGIN</div>
         <div class="form-input">
             <form name="formal" method="post" action="login" autocomplete="off">
-            <label for="username">Username/Email</label>
+            <label for="username">Username</label>
             <span id="username-error" style="color: red;"></span>
             <div>
                 <input type="text" id="username" name="uid" placeholder="Enter your Username/Email address"/>
