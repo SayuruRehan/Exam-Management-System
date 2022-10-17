@@ -9,7 +9,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <title>Exam | ExamDept</title>
+    <title>Exam | ExamLEC</title>
   </head>
 
   <body onload="startTime()">
@@ -115,7 +115,7 @@ uri="http://java.sun.com/jsp/jstl/core"%>
 
         	<div class="design-btn"><a href="register.jsp" ><button id="register-btn" >Upload Question<br><br><ion-icon name="book-outline" class="timetable"></ion-icon></button></a></div>
         	<div  class="design-btn"><a href="seatStd.jsp" ><button id="seat-btn">Update Question<br><br><ion-icon name="reader-outline" class="seat"></ion-icon></button></a></div>
-        	<div  class="design-btn"><a href="seatStd.jsp" ><button id="seat-btn">Assign Examiners<br><br><ion-icon name="reader-outline" class="seat"></ion-icon></button></a></div>
+        	<div  class="design-btn"><a href="seatStd.jsp" ><button id="seat-btn">View Examiners List<br><br><ion-icon name="reader-outline" class="seat"></ion-icon></button></a></div>
        </div> 
     </div>
     

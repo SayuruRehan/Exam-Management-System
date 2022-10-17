@@ -19,7 +19,7 @@ public class UserDBUtil {
 		 //Create database connection
 		 String url = "jdbc:mysql://localhost:3306/exammanagement";
 		 String user = "root";
-		 String pwd = "#14Apple#";
+		 String pwd = "";
 		 
 		 //Validate
 		 
@@ -82,7 +82,7 @@ public class UserDBUtil {
 			 //Create database connection
 			 String url = "jdbc:mysql://localhost:3306/exammanagement";
 			 String user = "root";
-			 String pwd = "#14Apple#";
+			 String pwd = "";
 			 
 			 //Validate
 			 
@@ -143,7 +143,7 @@ public class UserDBUtil {
 					 //Create database connection
 					 String url = "jdbc:mysql://localhost:3306/exammanagement";
 					 String user = "root";
-					 String pwd = "#14Apple#";
+					 String pwd = "";
 					 
 					 //Validate
 					 
@@ -209,7 +209,7 @@ public class UserDBUtil {
 		//Create db connection
 		 String url = "jdbc:mysql://localhost:3306/exammanagement";
 		 String user = "root";
-		 String pwd = "#14Apple#";
+		 String pwd = "";
 		 
 		 try {
 
