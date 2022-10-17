@@ -26,4 +26,14 @@
 		<url-pattern>/insert</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>timeTableServlet</servlet-name>
+		<servlet-class>use.user.timeTableServlet</servlet-class>
+		
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>timeTableServlet</servlet-name>
+		<url-pattern>/uploadtt</url-pattern>
+	</servlet-mapping>
+	
  </web-app>
