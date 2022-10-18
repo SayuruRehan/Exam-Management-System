@@ -1,4 +1,14 @@
-public static boolean inserttimetable(String faculty, String year, String timetable ) {
+package use.user;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class timetableDBUtil {
+	public static boolean inserttimetable(String faculty, String year, String timetable ) {
 		 {
 		
 		boolean isSuccess = false;
@@ -47,6 +57,7 @@ public static boolean inserttimetable(String faculty, String year, String timeta
 		 }
 		
 		return isSuccess;
-	}
+		}
 	
+	}
 }
